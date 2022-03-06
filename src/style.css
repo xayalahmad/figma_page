@@ -255,10 +255,9 @@ margin-bottom: 23px;
     /* justify-content: space-between; */
 }
 .footer1dflex{
-}
-.footer1dflex{
     margin-bottom: 5px;
     margin-left: 55px;
+    /* width: 200px; */
 }
 .footer1dflexsectionsrightsec{
     margin-left: 10px;
@@ -294,7 +293,7 @@ margin-top: 10px;
         font-size: 42px;
     }
     .fotter1dflextext{
-        /* width: 300px; */
+        width: 300px;
         font-size: 15px;
     }
     .fotter1dflextitle{
@@ -895,6 +894,7 @@ text-align: right;
     }
     .texts p {
         font-size: 23px;
+        line-height: 24px;
     }
     .text1 {
         margin-bottom: 20px;
@@ -932,7 +932,7 @@ text-align: right;
     }
 }
 
-@media (min-width: 992px) and (max-width: 1279px) {
+@media (min-width: 992px){
     .contenttext {
         font-family: var(--robotoSlab);
         font-style: normal;
@@ -953,6 +953,7 @@ text-align: right;
     }
     .texts p {
         font-size: 18px;
+        line-height: 24px;
     }
     .text1 {
         margin-bottom: 20px;
@@ -1024,6 +1025,7 @@ text-align: right;
     }
     .texts p {
         font-size: 16px;
+        line-height: 24px;
     }
     .text1 {
         margin-bottom: 20px;
@@ -1037,6 +1039,7 @@ text-align: right;
     }
     .text1 {
         margin-bottom: 20px;
+        line-height: 24px;
     }
     .allsides {
         width: 80%;
@@ -1048,7 +1051,7 @@ text-align: right;
     .rightside {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 200px;
+        margin-top: 220px;
     }
     .leftside img {
         width: 134.37px;
@@ -1074,5 +1077,13 @@ text-align: right;
     .card3 {
         display: flex;
         flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 450px) {
+    .rightside {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 300px;
     }
 }
