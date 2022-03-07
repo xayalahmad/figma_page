@@ -421,6 +421,7 @@ margin-top: 10px;
         font-size: 55px;
         line-height: 101.38%;
         margin: 50px 0;
+        font-weight: 700;
     }
     .txtname {
         display: flex;
@@ -471,6 +472,7 @@ margin-top: 10px;
         font-size: 50px;
         line-height: 101.38%;
         margin: 40px 0;
+        font-weight: 700;
     }
     .txtname {
         display: flex;
@@ -513,6 +515,7 @@ margin-top: 10px;
         font-size: 35px;
         line-height: 101.38%;
         margin: 50px 0;
+        font-weight: 700;
     }
     .txtname {
         font-family: var(--roboto);
@@ -565,6 +568,7 @@ margin-top: 10px;
         font-size: 53px;
         line-height: 101.38%;
         margin: 30px 0;
+        font-weight: 700;
     }
     ul li {
         font-family: var(--roboto);
@@ -591,6 +595,7 @@ margin-top: 10px;
         font-size: 50px;
         line-height: 101.38%;
         margin: 30px 0;
+        font-weight: 700;
     }
     ul li {
         font-family: var(--roboto);
@@ -614,6 +619,7 @@ margin-top: 10px;
         font-size: 32px;
         line-height: 101.38%;
         margin: 30px 0;
+        font-weight: 700;
     }
     ul li {
         font-family: var(--roboto);
@@ -793,7 +799,7 @@ text-align: right;
     }
     #bluebox{
         
-        margin-top: 150px;
+        margin-top: 230px;
     }
     #bluebox{
         /* margin: 250px 0 0 0; */
@@ -926,7 +932,7 @@ text-align: right;
     }
     .card p {
         font-family: var(--roboto);
-        font-weight: normal;
+        font-weight: 400;
         font-size: 18px;
         line-height: 130%;
     }
@@ -935,7 +941,6 @@ text-align: right;
 @media (min-width: 992px){
     .contenttext {
         font-family: var(--robotoSlab);
-        font-style: normal;
         font-size: 50px;
         width: 80%;
         margin: auto;
@@ -947,8 +952,7 @@ text-align: right;
     .together {
         display: flex;
         font-family: var(--roboto);
-        font-style: normal;
-        font-weight: normal;
+        font-weight: 400;
         font-size: 30px;
     }
     .texts p {
@@ -1084,6 +1088,6 @@ text-align: right;
     .rightside {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 300px;
+        margin-top: 350px;
     }
 }
