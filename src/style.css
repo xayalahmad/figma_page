@@ -256,11 +256,11 @@ margin-bottom: 23px;
 }
 .footer1dflex{
     margin-bottom: 5px;
-    margin-left: 55px;
+    /* margin-left: 55px; */
     /* width: 200px; */
 }
-.footer1dflexsectionsrightsec{
-    margin-left: 10px;
+.footer1dflexright{
+    margin-left: 20px;
 }
 .fotter1dflextitle{
     font-family: var(--roboto);
@@ -376,33 +376,6 @@ margin-top: 10px;
         flex-direction: row;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -630,41 +603,6 @@ margin-top: 10px;
         /* width: 662px; */
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
