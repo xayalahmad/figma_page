@@ -21,9 +21,8 @@
     box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
     border-radius: 22.9792px;
     margin-bottom: 25px;
-    margin-left: 7px;
-    margin-right: 7px;
 }
+
 
 .cardsec img{
     margin: auto;
@@ -71,12 +70,15 @@
 
 
 @media only screen and (min-width: 834px)  {
+    .cardsecright{
+        margin-left: 10px;
+    }
     .threediv{
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         width: 100%;
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     .cardscontainer{
         display: flex;
@@ -91,9 +93,10 @@
 
 }
 
-@media only screen and (min-width: 999px)  {
+@media only screen and (min-width: 1040px)  {
+
     .threediv{
-        justify-content: space-between;
+        justify-content: flex-start;
     }
     .cardscontainer{
         margin: auto;
@@ -128,7 +131,7 @@
 .title1616{
     font-family: var(--robotoSlab);
     font-weight: 700;
-    font-size: 26px;
+    font-size: 30px;
     line-height: 101.38%;
     color: #000000;
     margin-bottom: 25px;
@@ -176,6 +179,9 @@
 }
 
 @media only screen and (min-width: 834px)  {
+    .title1616{
+        font-size: 50px;
+    }
     .card1616{
         max-width: 600px;
 
@@ -195,6 +201,9 @@
     }
 }
 @media only screen and (min-width: 999px)  {
+    .title1616{
+        font-size: 50px;
+    }
     .card1616{
         max-width: 800px;
 
@@ -544,6 +553,7 @@ margin-top: 10px;
         font-weight: 700;
     }
     ul li {
+        list-style: disc;
         font-family: var(--roboto);
         font-style: normal;
         font-weight: normal;
@@ -571,6 +581,7 @@ margin-top: 10px;
         font-weight: 700;
     }
     ul li {
+        list-style: disc;
         font-family: var(--roboto);
         font-style: normal;
         font-weight: normal;
@@ -595,6 +606,7 @@ margin-top: 10px;
         font-weight: 700;
     }
     ul li {
+        list-style: disc;
         font-family: var(--roboto);
         font-style: normal;
         font-weight: normal;
@@ -632,7 +644,7 @@ margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 .navsection img{
     margin-right: 8px;
@@ -728,6 +740,8 @@ text-align: right;
     }
     #homepagetitle{
         width: auto;
+        margin-left: 0;
+        font-size: 40px;
     }
     #homepageimgbigdiv{
         position: relative;
