@@ -71,7 +71,7 @@
 
 @media only screen and (min-width: 834px)  {
     .cardsecright{
-        margin-left: 10px;
+        margin-left: 15px;
     }
     .threediv{
         display: flex;
@@ -93,8 +93,17 @@
 
 }
 
-@media only screen and (min-width: 1040px)  {
+@media only screen and (min-width: 950px)  {
+    .cardsecright{
+        margin-left: 80px;
+    }
+}
 
+
+@media only screen and (min-width: 1165px)  {
+    .cardsecright{
+        margin-left: 30px;
+    }
     .threediv{
         justify-content: flex-start;
     }
@@ -121,7 +130,32 @@
  
     
 }
+@media only screen and (min-width: 1240px)  {
+    .cardsecright{
+        margin-left: 50px;
+    }
+}
 
+
+@media only screen and (min-width: 1440px)  {
+    .cardsecright{
+        margin-left: 130px;
+    }
+}
+
+
+@media only screen and (min-width: 1540px)  {
+    .cardsecright{
+        margin-left: 80px;
+    }
+}
+
+
+@media only screen and (min-width: 1640px)  {
+    .cardsecright{
+        margin-left: 100px;
+    }
+}
 
 /* ! 1616 section */
 .section1616{
@@ -180,7 +214,7 @@
 
 @media only screen and (min-width: 834px)  {
     .title1616{
-        font-size: 50px;
+        font-size: 55px;
     }
     .card1616{
         max-width: 600px;
@@ -202,7 +236,7 @@
 }
 @media only screen and (min-width: 999px)  {
     .title1616{
-        font-size: 50px;
+        font-size: 55px;
     }
     .card1616{
         max-width: 800px;
@@ -652,7 +686,7 @@ margin-top: 10px;
 }
 
 .navtitles{
-    font-family: var(--roboto);
+    font-family:  'Roboto', sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #000000;
@@ -684,7 +718,7 @@ margin-top: 10px;
     font-size: 20px;
     line-height: 150%;
     color: #000000;
-    /* width: 414px; */
+    width: 500px;   
 }
 .blueboxcontainer{
     display: flex;
@@ -725,10 +759,19 @@ text-align: right;
         width: 450px;
         font-size: 60px;
     }
+    #homepagetext{
+        width: auto;   
+    }
+    #navtitles{
+        font-family:  'Roboto', sans-serif;
+    }
 }
 
 
 @media only screen and (max-width: 992px)  {
+    #homepagetext{
+        width: auto;   
+    }
 
     #homepageimg{
         margin: auto;
@@ -790,6 +833,9 @@ text-align: right;
     #blueboxname{
         font-size: 17px;
     }
+    #navtitles{
+        font-family:  'Roboto', sans-serif;
+    }
 }
 
 
@@ -800,8 +846,6 @@ text-align: right;
 
 @media only screen and (max-width: 440px)  {
     .littlenav{
-        display: flex;
-        flex-direction: column;
     }
     .navsection{
         display: flex;
@@ -809,6 +853,15 @@ text-align: right;
         /* align-items: center; */
         /* margin-left: 0px; */
         margin-bottom: 10px;
+        margin-right: 10px;
+    }
+    .navsection img{
+        width: 15px;
+        margin-right: 5px;
+    }
+    #navtitles{
+        font-size: 13px;
+        font-family:  'Roboto', sans-serif;
     }
 }
 
@@ -947,11 +1000,13 @@ text-align: right;
     .card span {
         font-weight: bold;
         font-size: 20px;
+        font-family: var(--roboto);
     }
     .card p {
         font-weight: normal;
         font-size: 18px;
         line-height: 130%;
+        font-family: var(--roboto);
     }
 }
 
@@ -1027,11 +1082,13 @@ text-align: right;
     }
     .card span {
         font-weight: bold;
+        font-family: var(--roboto);
         font-size: 18px;
     }
     .card p {
         font-weight: normal;
         font-size: 16px;
+        font-family: var(--roboto);
         line-height: 130%;
     }
     .card3 {
