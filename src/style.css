@@ -525,7 +525,7 @@ margin-top: 10px;
 
 /* Smartfon */
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 100px) and (max-width: 991px) {
     .allelements h2 {
         font-family: 'Roboto Slab', serif;
         font-size: 35px;
@@ -594,6 +594,7 @@ margin-top: 10px;
         font-size: 20px;
         line-height: 150%;
         width: 662px;
+        margin-left: 20px;
     }
 }
 
@@ -621,11 +622,13 @@ margin-top: 10px;
         font-weight: normal;
         font-size: 18px;
         line-height: 150%;
+        margin-left: 20px;
         width: 662px;
     }
+
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 100px) and (max-width: 991px) {
     .allelements2 {
         width: 80%;
         margin: auto;
@@ -647,6 +650,7 @@ margin-top: 10px;
         font-size: 14px;
         line-height: 150%;
         /* width: 662px; */
+        margin-left: 20px;
     }
 }
 
@@ -1013,7 +1017,7 @@ text-align: right;
 
 /* Mobile */
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (min-width: 100px) and (max-width: 991px) {
     .contenttext {
         width: 500px;
         font-family: var(--robotoSlab);
@@ -1046,7 +1050,7 @@ text-align: right;
         margin-bottom: 20px;
     }
     .ellipse {
-        width: 200px;
+        width: 230px;
         margin-top: 25px;
         margin-bottom: 25px;
         margin-left: auto;
@@ -1097,10 +1101,10 @@ text-align: right;
     }
 }
 
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 100px) and (max-width: 450px) {
     .rightside {
         display: flex;
         flex-wrap: wrap;
-        margin-top: 350px;
+        margin-top: 370px;
     }
 }
