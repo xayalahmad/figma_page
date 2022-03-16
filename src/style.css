@@ -695,6 +695,9 @@ margin-top: 10px;
     font-size: 20px;
     color: #000000;
 }
+#navtitles{
+    font-family:  'Roboto', sans-serif;
+}
 #homepageimgbigdiv{
 
     /* width: 100%; */
